@@ -1,0 +1,7 @@
+import time 
+a=input("Enter your Name:")
+b=int(input("Enter the Number:"))
+for i in range(b):
+	print("{}.{}".format(i+1,a))
+	time.sleep(2)
+
